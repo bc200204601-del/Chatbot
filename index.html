@@ -58,14 +58,28 @@
       background: #f1f5f9;
       border-radius: 8px;
       font-size: 15px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
     }
-    /* Chatbot styling */
+    #priceResult.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Chatbot Styling */
     df-messenger {
-      --df-messenger-bot-message: #0f766e;
+      --df-messenger-bot-message: #e2e8f0;      /* light gray bubble */
+      --df-messenger-bot-message-text-color: #111827; /* dark text inside bubble */
+      --df-messenger-user-message: #0f766e;     /* teal bubble for user */
+      --df-messenger-user-message-text-color: #ffffff; /* white text inside user bubble */
       --df-messenger-button-titlebar-color: #0f766e;
       --df-messenger-chat-background-color: #f8fafc;
       --df-messenger-send-icon: #0f766e;
-      --df-messenger-user-message: #115e59;
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      z-index: 999;
     }
   </style>
 </head>
@@ -89,7 +103,7 @@
     <div id="priceResult"></div>
   </div>
 
-  <!-- Dialogflow Messenger -->
+  <!-- Floating Dialogflow Messenger -->
   <df-messenger
     intent="WELCOME"
     chat-title="SolarBot"
@@ -97,7 +111,7 @@
     language-code="en">
   </df-messenger>
 
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <!-- Scripts -->
   <script>
     function calculatePrice() {
       const size = document.getElementById('systemSize').value;
@@ -109,5 +123,20 @@
         20:{ total:3200000, panels:2300000, inverter: 600000, installation: 300000 }
       };
       const breakdown = prices[size];
-      document.getElementById('priceResult').innerHTML =
-        `<strong>Estimated Cost for
+      const resultBox = document.getElementById('priceResult');
+      resultBox.innerHTML =
+        `<strong>Estimated Cost for ${size}kW:</strong><br>
+         • Panels: PKR ${breakdown.panels.toLocaleString()}<br>
+         • Inverter: PKR ${breakdown.inverter.toLocaleString()}<br>
+         • Installation: PKR ${breakdown.installation.toLocaleString()}<br>
+         👉 <b>Total: PKR ${breakdown.total.toLocaleString()}</b>`;
+      
+      // Trigger fade-in animation
+      resultBox.classList.remove("show");
+      void resultBox.offsetWidth; // reset animation
+      resultBox.classList.add("show");
+    }
+  </script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</body>
+</html>
