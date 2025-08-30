@@ -3,13 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <title>Solar Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background: #0f766e;
+      color: white;
+      padding: 20px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .calculator-container {
+      max-width: 500px;
+      background: #fff;
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h3 {
+      margin-top: 0;
+      color: #0f766e;
+    }
+    select, button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #0f766e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #115e59;
+    }
+    #priceResult {
+      margin-top: 15px;
+      padding: 12px;
+      background: #f1f5f9;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    /* Chatbot styling */
+    df-messenger {
+      --df-messenger-bot-message: #0f766e;
+      --df-messenger-button-titlebar-color: #0f766e;
+      --df-messenger-chat-background-color: #f8fafc;
+      --df-messenger-send-icon: #0f766e;
+      --df-messenger-user-message: #115e59;
+    }
+  </style>
 </head>
 <body>
-  <h2>⚡ Solar System Chatbot</h2>
-  <p>Ask me about solar costs, installers, net metering, or FAQs!</p>
+  <header>
+    <h2>⚡ Solar System Chatbot</h2>
+    <p>Ask me about solar costs, installers, or FAQs!</p>
+  </header>
 
   <!-- Calculator -->
-  <div class="pricing-calculator" style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+  <div class="calculator-container">
     <h3>Quick Price Calculator</h3>
     <select id="systemSize">
       <option value="3">3kW System</option>
@@ -22,6 +89,15 @@
     <div id="priceResult"></div>
   </div>
 
+  <!-- Dialogflow Messenger -->
+  <df-messenger
+    intent="WELCOME"
+    chat-title="SolarBot"
+    agent-id="728466b3-b1f9-4094-9b64-ece38da84ac2"
+    language-code="en">
+  </df-messenger>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <script>
     function calculatePrice() {
       const size = document.getElementById('systemSize').value;
@@ -34,22 +110,4 @@
       };
       const breakdown = prices[size];
       document.getElementById('priceResult').innerHTML =
-        `<strong>Estimated Cost for ${size}kW:</strong><br>
-         • Panels: PKR ${breakdown.panels.toLocaleString()}<br>
-         • Inverter: PKR ${breakdown.inverter.toLocaleString()}<br>
-         • Installation: PKR ${breakdown.installation.toLocaleString()}<br>
-         👉 <b>Total: PKR ${breakdown.total.toLocaleString()}</b>`;
-    }
-  </script>
-
-  <!-- Dialogflow Messenger -->
-  <df-messenger
-    intent="WELCOME"
-    chat-title="SolarBot"
-    agent-id="728466b3-b1f9-4094-9b64-ece38da84ac2"
-    language-code="en">
-  </df-messenger>
-
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-</body>
-</html>
+        `<strong>Estimated Cost for
