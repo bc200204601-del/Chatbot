@@ -1,0 +1,20 @@
+{
+  "name": "projects/YOUR_PROJECT_ID/agent/intents/55555555-5555-5555-5555-555555555555",
+  "displayName": "Cost – General",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_DISABLED",
+  "trainingPhrases": [
+    { "parts": [{ "text": "Check solar system cost" }] },
+    { "parts": [{ "text": "What is the solar cost?" }] },
+    { "parts": [{ "text": "Tell me the price of solar system" }] }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "Please tell me the system size (5, 10, 15, or 20 kW) so I can give you the price."
+        ]
+      }
+    }
+  ]
+}

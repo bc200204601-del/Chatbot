@@ -1,0 +1,21 @@
+{
+  "name": "projects/YOUR_PROJECT_ID/agent/intents/44444444-4444-4444-4444-444444444444",
+  "displayName": "Cost – 20kW",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_DISABLED",
+  "trainingPhrases": [
+    { "parts": [{ "text": "What is the cost of 20kW solar system?" }] },
+    { "parts": [{ "text": "Price of 20 kW system" }] },
+    { "parts": [{ "text": "Cost for 20kw solar setup" }] },
+    { "parts": [{ "text": "20 kilowatt solar price" }] }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "A 20 kW solar system costs around Rs. 3,200,000."
+        ]
+      }
+    }
+  ]
+}

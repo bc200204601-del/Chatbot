@@ -1,0 +1,21 @@
+{
+  "name": "projects/YOUR_PROJECT_ID/agent/intents/22222222-2222-2222-2222-222222222222",
+  "displayName": "Cost – 10kW",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_DISABLED",
+  "trainingPhrases": [
+    { "parts": [{ "text": "What is the cost of 10kW solar system?" }] },
+    { "parts": [{ "text": "Price of 10 kW system" }] },
+    { "parts": [{ "text": "Cost for 10kw solar setup" }] },
+    { "parts": [{ "text": "10 kilowatt solar price" }] }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "A 10 kW solar system costs around Rs. 1,750,000."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "projects/YOUR_PROJECT_ID/agent/intents/11111111-1111-1111-1111-111111111111",
+  "displayName": "Cost – 5kW",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_DISABLED",
+  "trainingPhrases": [
+    { "parts": [{ "text": "What is the cost of 5kW solar system?" }] },
+    { "parts": [{ "text": "Price of 5 kW system" }] },
+    { "parts": [{ "text": "How much does 5kw cost" }] },
+    { "parts": [{ "text": "5 kilowatt solar price" }] }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "A 5 kW solar system costs around Rs. 950,000."
+        ]
+      }
+    }
+  ]
+}

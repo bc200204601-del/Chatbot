@@ -1,0 +1,21 @@
+{
+  "name": "projects/YOUR_PROJECT_ID/agent/intents/33333333-3333-3333-3333-333333333333",
+  "displayName": "Cost – 15kW",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_DISABLED",
+  "trainingPhrases": [
+    { "parts": [{ "text": "What is the cost of 15kW solar system?" }] },
+    { "parts": [{ "text": "Price of 15 kW system" }] },
+    { "parts": [{ "text": "Cost for 15kw solar setup" }] },
+    { "parts": [{ "text": "15 kilowatt solar price" }] }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "A 15 kW solar system costs around Rs. 2,500,000."
+        ]
+      }
+    }
+  ]
+}
