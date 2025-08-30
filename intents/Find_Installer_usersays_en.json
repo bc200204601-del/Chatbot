@@ -1,0 +1,150 @@
+[
+  {
+    "id": "6f8276e5-3b1b-4a25-8b39-e676f9e5fa84",
+    "data": [
+      {
+        "text": "Top solar companies in rwp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96724111-c8da-4aa8-b7c9-aa922223f076",
+    "data": [
+      {
+        "text": "suggest companies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03d3f116-ec2f-4d9a-80e0-9119065d8449",
+    "data": [
+      {
+        "text": "Find installers in ",
+        "userDefined": false
+      },
+      {
+        "text": "rwp",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "663744a7-07fc-4dc5-bba7-8dc1c01ab281",
+    "data": [
+      {
+        "text": "Solar panel installation companies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97a522b5-3f32-4eae-a919-d3c2c2e82336",
+    "data": [
+      {
+        "text": "Solar companies in Rawalpindi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d24505c-ae07-4c40-941c-21ece6fffe16",
+    "data": [
+      {
+        "text": "Find solar installers near me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dabba379-7f00-4ba1-847c-08463da85597",
+    "data": [
+      {
+        "text": "Solar installers in Chaklala",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df2ce379-3117-4dad-9c1e-cffbcca191ed",
+    "data": [
+      {
+        "text": "Where can I get solar installed?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e68a48e-2de8-4981-8bd4-5d1d59d24c11",
+    "data": [
+      {
+        "text": "Installation services in ",
+        "userDefined": false
+      },
+      {
+        "text": "Pindi",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6dc5c74b-da92-4243-a075-8d8ff6bcc6bc",
+    "data": [
+      {
+        "text": "Best solar installer in ",
+        "userDefined": false
+      },
+      {
+        "text": "RWP",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "c0454944-75de-4bfc-8417-e9b166d143f9",
+  "name": "energy_usage",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

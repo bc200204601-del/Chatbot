@@ -1,0 +1,288 @@
+[
+  {
+    "id": "54e3c96d-9ea3-4d91-bbe3-cf10efdcb5d7",
+    "data": [
+      {
+        "text": "My monthly bill is ",
+        "userDefined": false
+      },
+      {
+        "text": "15000",
+        "meta": "@sys.number",
+        "alias": "bill_amount",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "PKR",
+        "meta": "@sys.currency-name",
+        "alias": "bill_currency",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbe5d788-44ea-40a5-bc61-50872cffc589",
+    "data": [
+      {
+        "text": "My bill amount is ",
+        "userDefined": false
+      },
+      {
+        "text": "5000",
+        "meta": "@sys.number",
+        "alias": "bill_amount",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Rs",
+        "meta": "@sys.currency-name",
+        "alias": "bill_currency",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48400760-3dea-44ba-9d9c-f2a87473f7d8",
+    "data": [
+      {
+        "text": "5",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "marla",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddc41186-0142-4cb1-8293-180b94d484a8",
+    "data": [
+      {
+        "text": "My roof size is ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "marla",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c82266bd-5e37-4eda-ab26-44c21bad3630",
+    "data": [
+      {
+        "text": "My roof size is ",
+        "userDefined": false
+      },
+      {
+        "text": "1200",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sqft",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9be5945-268f-4d35-a2cd-094ff2e46271",
+    "data": [
+      {
+        "text": "What size solar panels for ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sqft",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9f520176-173a-415d-b0a8-5b19a58de301",
+    "data": [
+      {
+        "text": "Roof area is ",
+        "userDefined": false
+      },
+      {
+        "text": "200",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sq ft",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      },
+      {
+        "text": ", what size system?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ca08ded-1e5f-4d51-a9ff-3db295d5c7f2",
+    "data": [
+      {
+        "text": "What size system for ",
+        "userDefined": false
+      },
+      {
+        "text": "300",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sq ft",
+        "meta": "@unit_area",
+        "alias": "unit_area",
+        "userDefined": true
+      },
+      {
+        "text": " roof?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e4c36e9-a395-4a1c-a9b6-df56de5ec6bf",
+    "data": [
+      {
+        "text": "My electricity consumption is ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "meta": "@sys.number",
+        "alias": "area_number",
+        "userDefined": false
+      },
+      {
+        "text": " kWh",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6a67d88-ce49-4977-851f-291169ecf6b4",
+    "data": [
+      {
+        "text": "I use ",
+        "userDefined": false
+      },
+      {
+        "text": "400",
+        "meta": "@sys.number",
+        "alias": "bill_amount",
+        "userDefined": false
+      },
+      {
+        "text": " units per month",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

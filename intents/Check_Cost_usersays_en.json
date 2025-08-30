@@ -1,0 +1,335 @@
+[
+  {
+    "id": "7d53a1b2-48a2-40f5-83a5-70e487b845ed",
+    "data": [
+      {
+        "text": "Cost breakdown by ",
+        "userDefined": false
+      },
+      {
+        "text": "size",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "687c18cf-7f83-45ac-8c93-cc40537ba475",
+    "data": [
+      {
+        "text": "\"Cost of ",
+        "userDefined": false
+      },
+      {
+        "text": "10kW",
+        "userDefined": false
+      },
+      {
+        "text": " panels\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c104c2c5-db29-45a5-89d8-3d83bb38e70d",
+    "data": [
+      {
+        "text": "How much does a ",
+        "userDefined": false
+      },
+      {
+        "text": "5kW",
+        "userDefined": false
+      },
+      {
+        "text": " system cost?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0f05683-437e-4d74-a6eb-cd09870101bf",
+    "data": [
+      {
+        "text": "\"Price estimate for ",
+        "userDefined": false
+      },
+      {
+        "text": "10kW",
+        "userDefined": false
+      },
+      {
+        "text": "\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "155f1e9a-0a58-4094-86f5-dd5db544900b",
+    "data": [
+      {
+        "text": "Install cost for ",
+        "userDefined": false
+      },
+      {
+        "text": "3kW",
+        "userDefined": false
+      },
+      {
+        "text": " system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42e9505b-00bd-4843-acb4-4b70fffef289",
+    "data": [
+      {
+        "text": "Price of ",
+        "userDefined": false
+      },
+      {
+        "text": "15kW",
+        "userDefined": false
+      },
+      {
+        "text": " in Rawalpindi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99d028c6-cc8e-4608-bced-5a002af7c78b",
+    "data": [
+      {
+        "text": "How much for ",
+        "userDefined": false
+      },
+      {
+        "text": "5kW",
+        "userDefined": false
+      },
+      {
+        "text": " with batteries?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26a302cc-9711-451b-9fd6-b0a11c2b3a7d",
+    "data": [
+      {
+        "text": "What\u0027s the cost for ",
+        "userDefined": false
+      },
+      {
+        "text": "10kW",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78cefd80-02ed-4274-8013-d5daef78b438",
+    "data": [
+      {
+        "text": "Price of ",
+        "userDefined": false
+      },
+      {
+        "text": "3kW",
+        "userDefined": false
+      },
+      {
+        "text": " solar setup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fde6f1dd-0e94-4240-8c4f-c086d718ddee",
+    "data": [
+      {
+        "text": "Cost of ",
+        "userDefined": false
+      },
+      {
+        "text": "15kW",
+        "userDefined": false
+      },
+      {
+        "text": " solar system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a09fbb86-5cbd-4d0c-abca-e52229699bd8",
+    "data": [
+      {
+        "text": "How much for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "meta": "@sys.number",
+        "alias": "system_size",
+        "userDefined": true
+      },
+      {
+        "text": " kW installation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7f8e8a37-9e78-4835-8ae6-a41b9ea427c5",
+    "data": [
+      {
+        "text": "What\u0027s the price for 5 kW panels?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d091bbc-4312-4ae4-863e-f0e940fdbad9",
+    "data": [
+      {
+        "text": "Cost of 10 kW in Pakistan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc321b66-ee47-4209-b457-055608db47af",
+    "data": [
+      {
+        "text": "Price for 5 kilowatt system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce39f6bb-ea80-4d51-a694-b1da2e10ecfa",
+    "data": [
+      {
+        "text": "How much does 20kW cost?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aecf776e-bb7d-4e75-af5f-168fd5f7b38b",
+    "data": [
+      {
+        "text": "Installation cost for 15 kW",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "236aeab1-88c8-4b35-91a1-f0120d7b0215",
+    "data": [
+      {
+        "text": "What\u0027s the cost for 3kW system?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5506514a-87dd-47eb-a404-95a8083dd511",
+    "data": [
+      {
+        "text": "Price of 10kW solar panels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "212a1320-68f7-4513-b87e-b861f45bd70f",
+    "data": [
+      {
+        "text": "How much for a 5kW system?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

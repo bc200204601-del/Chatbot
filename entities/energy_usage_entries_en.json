@@ -1,0 +1,50 @@
+[
+  {
+    "value": "400 units",
+    "synonyms": [
+      "400 units",
+      "400",
+      "400 kwh",
+      "400kwh"
+    ]
+  },
+  {
+    "value": "300 units",
+    "synonyms": [
+      "300 units",
+      "300units",
+      "300 kwh",
+      "300kwh",
+      "300"
+    ]
+  },
+  {
+    "value": "500 units",
+    "synonyms": [
+      "500 units",
+      "500kwh",
+      "500 kwh",
+      "500units",
+      "500"
+    ]
+  },
+  {
+    "value": "250 units",
+    "synonyms": [
+      "250 units",
+      "250",
+      "250kwh",
+      "250 kwh"
+    ]
+  },
+  {
+    "value": "600 units",
+    "synonyms": [
+      "600 units",
+      "600 kwh",
+      "600kwh",
+      "600",
+      "600 kilowatts hrs"
+    ]
+  }
+]

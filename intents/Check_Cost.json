@@ -1,0 +1,74 @@
+{
+  "id": "391a46d9-4bed-4bf5-b3b1-2c2568b0838c",
+  "name": "Check_Cost",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c02dfe55-dbcb-4a0d-8f96-809c820dcc77",
+          "name": "system-size",
+          "required": false,
+          "dataType": "@system-size",
+          "value": "$system-size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "\"What system size are you interested in? (3kW, 5kW, 10kW, 15kw, 20kWetc.)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "01d2e1bc-829a-4fac-8d89-63b6743056da",
+          "name": "system_size",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$system_size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "“Please tell me the system size (3, 5, 10, 15, 20 kW).”"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Got it! Fetching cost details for you...\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

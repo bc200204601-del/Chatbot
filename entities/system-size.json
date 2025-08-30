@@ -1,0 +1,9 @@
+{
+  "id": "c6cee3d5-354a-4658-88e1-6384605745fd",
+  "name": "system-size",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

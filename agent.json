@@ -1,0 +1,33 @@
+{
+  "description": "Solar Power System Chatbot",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "SolarPowerBot_RWP",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "defaultTimezone": "Asia/Yekaterinburg",
+  "webhook": {
+    "url": "https://solar-chatbot.onrender.com/webhook",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2beta1",
+  "secondaryKey": "1e968ca786d9417fb58cc547b44cc629",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false,
+  "avatarUri": "https://www.google.com/search?sca_esv\u003db4e332f294b324c3\u0026rlz\u003d1C1CHBF_enPK1096PK1097\u0026udm\u003d2\u0026fbs\u003dAIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOha3O1YqG67F0QIhAOFN_ob1xGdzU5Cnyn-oUzTul2B5TXRzAeIy3FI7wzggwHPeZE5cVxJF3TSy6VJy__A91WVw8jso2MVzslHtne5IBzFZ7wiBgKvuGJadfgZ9to9wUGx5Slqn\u0026q\u003dagent+avatar+solar+url\u0026sa\u003dX\u0026ved\u003d2ahUKEwjih4iEgauPAxWh7AIHHe9EKEMQtKgLegQIEhAB\u0026biw\u003d1344\u0026bih\u003d671\u0026dpr\u003d1.25#vhid\u003d4xI1dWFfBAmyMM\u0026vssid\u003dmosaic"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "value": "maintenance",
+    "synonyms": [
+      "maintenance",
+      "cleaning",
+      "keep",
+      "panel cleaning",
+      "system maintenance",
+      "taking care of panel",
+      "how to clean",
+      "panel care"
+    ]
+  },
+  {
+    "value": "cloudy",
+    "synonyms": [
+      "cloudy",
+      "cloudy day",
+      "no sun",
+      "rainy",
+      "overcast",
+      "low sunlight"
+    ]
+  },
+  {
+    "value": "lifespan",
+    "synonyms": [
+      "lifespan",
+      "lifetime",
+      "life span",
+      "how long solar works",
+      "durability"
+    ]
+  },
+  {
+    "value": "ac_usage",
+    "synonyms": [
+      "ac_usage",
+      "air conditioner",
+      "AC",
+      "cooling",
+      "can solar run AC",
+      "AC usage"
+    ]
+  }
+]

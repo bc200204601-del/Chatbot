@@ -1,0 +1,264 @@
+[
+  {
+    "id": "7326c053-525a-4de8-bbd8-3dc987ee66d0",
+    "data": [
+      {
+        "text": "AC",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " usage on solar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d6d01282-657d-4d93-9e1c-9ccbd1a9e289",
+    "data": [
+      {
+        "text": "can solar run ",
+        "userDefined": false
+      },
+      {
+        "text": "AC",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45023ebb-df22-4f3d-8332-0b78797c5f25",
+    "data": [
+      {
+        "text": "Life span",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " of solar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4267f6af-17eb-4088-9a08-f2fc631d30f5",
+    "data": [
+      {
+        "text": "Lifetime",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " of solar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16844dd3-d501-4b08-bdf6-cf0602fbf21f",
+    "data": [
+      {
+        "text": "Panel ",
+        "userDefined": false
+      },
+      {
+        "text": "maintenance",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " in monsoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db973f7d-baa6-4fca-858d-b7c44838dd89",
+    "data": [
+      {
+        "text": "How to ",
+        "userDefined": false
+      },
+      {
+        "text": "take care",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " of solar panels?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4661225f-69cd-4731-8f45-90709e528145",
+    "data": [
+      {
+        "text": "Do panels need ",
+        "userDefined": false
+      },
+      {
+        "text": "maintenance",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84575644-d6bd-4f19-91c1-340831251b14",
+    "data": [
+      {
+        "text": "Best way to ",
+        "userDefined": false
+      },
+      {
+        "text": "clean",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " solar panels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66567ba4-0b6f-4f64-ab6a-c4c457065b7f",
+    "data": [
+      {
+        "text": "Upkeep",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " of solar panels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "930c3a4d-1442-4e33-a9c0-9df42da85f80",
+    "data": [
+      {
+        "text": "How to ",
+        "userDefined": false
+      },
+      {
+        "text": "maintain",
+        "meta": "@faq_topic",
+        "alias": "topic",
+        "userDefined": true
+      },
+      {
+        "text": " solar system?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5ef9d3a-0eaf-4009-a315-1306b0e782bd",
+    "data": [
+      {
+        "text": "Panel cleaning process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e95d921c-2981-4172-aa4d-009878cc8123",
+    "data": [
+      {
+        "text": "How often should I clean panels?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "defc460a-a963-4b45-ade2-70766d0593f8",
+    "data": [
+      {
+        "text": "Solar panel maintenance tips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d59caed3-4c9f-4269-841a-006fc67621ad",
+    "data": [
+      {
+        "text": "How to clean solar panels?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

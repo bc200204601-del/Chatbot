@@ -1,0 +1,51 @@
+[
+  {
+    "value": "3KW",
+    "synonyms": [
+      "3KW",
+      "3 kilowatts",
+      "3kw",
+      "3 kilowatt"
+    ]
+  },
+  {
+    "value": "5KW",
+    "synonyms": [
+      "5KW",
+      "5Kw",
+      "5kw",
+      "5 kilowatts",
+      "5 kw",
+      "5 KW"
+    ]
+  },
+  {
+    "value": "10KW",
+    "synonyms": [
+      "10KW",
+      "10 KW",
+      "10 Kilowatts",
+      "10 kilowatt"
+    ]
+  },
+  {
+    "value": "15KW",
+    "synonyms": [
+      "15KW",
+      "15 kilowatts",
+      "15 kw",
+      "15 KW",
+      "15 kilowatt"
+    ]
+  },
+  {
+    "value": "20KW",
+    "synonyms": [
+      "20KW",
+      "20 KW",
+      "20 Kilowatts",
+      "20 kw",
+      "20 kilowatts"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "eb4ee4d3-c430-47b0-95fa-8d014a8de55b",
+  "name": "unit_area",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

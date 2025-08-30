@@ -1,0 +1,107 @@
+{
+  "id": "7be4ca81-4a42-4a26-9fcf-6147203ca75d",
+  "name": "Get_System_Size",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "340c720e-cf8a-40f6-90a2-30a6d86f5895",
+          "name": "area_number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$area_number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "“Please share your monthly bill (PKR).”"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "89cf7b1b-e38a-471b-b069-a9cada8135e9",
+          "name": "unit_area",
+          "required": true,
+          "dataType": "@unit_area",
+          "value": "$unit_area",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "80048c41-be34-4f1c-a042-5e16be85aa24",
+          "name": "bill_amount",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$bill_amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "“What’s your average monthly electricity bill?”"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b221d7c2-be6a-4c43-a797-0cb127857106",
+          "name": "bill_currency",
+          "required": true,
+          "dataType": "@sys.currency-name",
+          "value": "$bill_currency",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "“Is that in Pakistani Rupees?”"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "checking system size"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
