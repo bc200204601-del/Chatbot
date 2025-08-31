@@ -4,62 +4,92 @@
   <meta charset="UTF-8" />
   <title>Solar Chatbot</title>
   <style>
+    /* General Styling */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8fafc;
-      color: #333;
+      background: #f1f5f9;
+      color: #1f2937;
     }
+
+    /* Header Section */
     header {
       text-align: center;
-      background: #0f766e;
+      background: linear-gradient(135deg, #0f766e, #0d9488);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-    h2 {
+    header h2 {
       margin: 0;
-      font-size: 28px;
+      font-size: 32px;
+      font-weight: bold;
     }
+    header p {
+      margin: 10px 0 0;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    /* Calculator Container */
     .calculator-container {
-      max-width: 500px;
-      background: #fff;
-      padding: 20px;
-      margin: 30px auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 520px;
+      background: #ffffff;
+      padding: 25px 30px;
+      margin: 40px auto;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
     }
-    h3 {
+    .calculator-container:hover {
+      transform: translateY(-4px);
+    }
+    .calculator-container h3 {
       margin-top: 0;
       color: #0f766e;
+      font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
     }
+
     select, button {
-      padding: 10px;
-      margin-top: 10px;
+      padding: 12px;
+      margin-top: 12px;
       width: 100%;
       font-size: 16px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
     }
+    select:focus {
+      outline: none;
+      border-color: #0f766e;
+      box-shadow: 0 0 0 2px rgba(15,118,110,0.2);
+    }
+
     button {
       background: #0f766e;
       color: white;
       border: none;
       cursor: pointer;
       font-weight: bold;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.2s;
     }
     button:hover {
       background: #115e59;
+      transform: scale(1.02);
     }
+
+    /* Result Box */
     #priceResult {
-      margin-top: 15px;
-      padding: 12px;
-      background: #f1f5f9;
+      margin-top: 18px;
+      padding: 14px;
+      background: #f9fafb;
+      border-left: 4px solid #0f766e;
       border-radius: 8px;
       font-size: 15px;
       opacity: 0;
-      transform: translateY(10px);
+      transform: translateY(12px);
       transition: opacity 0.5s ease, transform 0.5s ease;
     }
     #priceResult.show {
@@ -69,16 +99,16 @@
 
     /* Chatbot Styling */
     df-messenger {
-      --df-messenger-bot-message: #e2e8f0;      /* light gray bubble */
-      --df-messenger-bot-message-text-color: #111827; /* dark text inside bubble */
-      --df-messenger-user-message: #0f766e;     /* teal bubble for user */
-      --df-messenger-user-message-text-color: #ffffff; /* white text inside user bubble */
+      --df-messenger-bot-message: #e2e8f0;
+      --df-messenger-bot-message-text-color: #111827;
+      --df-messenger-user-message: #0f766e;
+      --df-messenger-user-message-text-color: #ffffff;
       --df-messenger-button-titlebar-color: #0f766e;
       --df-messenger-chat-background-color: #f8fafc;
       --df-messenger-send-icon: #0f766e;
       position: fixed;
-      bottom: 16px;
-      right: 16px;
+      bottom: 20px;
+      right: 20px;
       z-index: 999;
     }
   </style>
@@ -86,7 +116,7 @@
 <body>
   <header>
     <h2>⚡ Solar System Chatbot</h2>
-    <p>Ask me about solar costs, installers, or FAQs!</p>
+    <p>Ask me about cost, installers, net metering & FAQs</p>
   </header>
 
   <!-- Calculator -->
@@ -99,7 +129,7 @@
       <option value="15">15kW System</option>
       <option value="20">20kW System</option>
     </select>
-    <button onclick="calculatePrice()">Calculate Price</button>
+    <button onclick="calculatePrice()">💰 Calculate Price</button>
     <div id="priceResult"></div>
   </div>
 
@@ -125,13 +155,12 @@
       const breakdown = prices[size];
       const resultBox = document.getElementById('priceResult');
       resultBox.innerHTML =
-        `<strong>Estimated Cost for ${size}kW:</strong><br>
-         • Panels: PKR ${breakdown.panels.toLocaleString()}<br>
-         • Inverter: PKR ${breakdown.inverter.toLocaleString()}<br>
-         • Installation: PKR ${breakdown.installation.toLocaleString()}<br>
+        `<strong>Estimated Cost for ${size}kW:</strong><br><br>
+         • Panels: <b>PKR ${breakdown.panels.toLocaleString()}</b><br>
+         • Inverter: <b>PKR ${breakdown.inverter.toLocaleString()}</b><br>
+         • Installation: <b>PKR ${breakdown.installation.toLocaleString()}</b><br><br>
          👉 <b>Total: PKR ${breakdown.total.toLocaleString()}</b>`;
       
-      // Trigger fade-in animation
       resultBox.classList.remove("show");
       void resultBox.offsetWidth; // reset animation
       resultBox.classList.add("show");
